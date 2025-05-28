@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #1a0000;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.zoekbalk input {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  width: 50vw; /* groter gemaakt */
+  background-color: #330000;
+  color: white;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons i {
+  min-width: 48px;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.chatlayout {
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100vh - 120px);
+  padding: 10px;
+  gap: 10px;
+}
+
+.kolom {
+  flex: 1;
+  min-width: 300px;
+  background-color: #1a0a0a;
+  padding: 10px;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+.kolom h2 {
+  color: #ff0000;
+  border-bottom: 1px solid #400000;
+  padding-bottom: 5px;
+}
+
+.kolom ul {
+  list-style: none;
+  padding: 0;
+}
+
+.kolom li {
+  padding: 5px 0;
+  border-bottom: 1px solid #330000;
+}
+
+footer {
+  display: flex;
+  padding: 10px;
+  background-color: #1a0000;
+}
+
+footer input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  background-color: #330000;
+  color: #fff;
+}
+
+footer button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #990000;
+  color: white;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+/* Mobielvriendelijk */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* optioneel voor iets meer ademruimte */
+  }
+
+  .zoekbalk input {
+    width: 90vw;
+  }
+
+  .logo img {
+    width: 60px; /* iets kleiner maar nog goed zichtbaar */
+  }
+
+  .icons i {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+
