@@ -24,7 +24,7 @@ header {
   padding: 8px 12px;
   border: none;
   border-radius: 5px;
-  width: 50vw;
+  width: 30vw;
   background-color: #330000;
   color: white;
 }
@@ -121,6 +121,10 @@ footer button {
 
 footer button:hover {
   background-color: #ff1a1a;
+}
+
+.message_field{
+  height: 30px;
 }
 
 /* Mobielvriendelijk */
