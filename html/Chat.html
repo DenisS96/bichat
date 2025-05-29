@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BiChatGo</title> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>Chatroom</title> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
-
   <header>
     <div class="logo">
       <img src="../images/ChatGPT_Image_22_mei_2025__23_22_45-removebg-preview.png" alt="Logo" />
@@ -16,44 +15,43 @@
     <div class="zoekbalk">
       <input type="text" placeholder="Zoek..." />
     </div>
-    <div class="icons">
-      <i class="fas fa-camera"></i>
-      <i class="fas fa-video"></i>
-      <i class="fas fa-image"></i>
-    </div>
   </header>
 
   <main class="chatlayout">
-
+    
     <section class="kolom kolom3">
-        <h2>Berichten</h2>
-        <div class="chatbubble left">Welkom bij BiChatGo</div>
-        <div class="chatbubble right">Dank je! Ziet er goed uit.</div>
-      </section>
+      <h2>Berichten</h2>
+      <div class="berichten-container">
+        <p>Selecteer een gebruiker om te chatten...</p>
+      </div>
+      <div class="chat-controls">
+        <div class="iconen">
+          <i class="fa fa-camera"></i>
+          <i class="fa fa-video-camera"></i>
+          <i class="fa fa-image"></i>
+          <i class="fa fa-location-arrow"></i>
+        </div>
+        <textarea placeholder="Typ een bericht..."></textarea>
+        <button>Verzend</button>
+      </div>
+    </section>
 
     <section class="kolom kolom1">
-      <h2>Nieuw</h2>
+      <h2>New</h2>
       <ul>
-        <li>Nieuw profiel 1</li>
-        <li>Nieuw profiel 2</li>
+        <li>Pijpsletje</li>
+        <li>abotmfoto opwhappen</li>
       </ul>
     </section>
 
     <section class="kolom kolom2">
       <h2>Zoekresultaten</h2>
       <ul>
-        <li>Profiel A (Antwerpen)</li>
-        <li>Profiel B (Oost-Vlaanderen)</li>
+        <li>02 Blijguy (Gelderland)</li>
+        <li>2 geile (Gelderland)</li>
       </ul>
     </section>
 
-    
   </main>
-
-  <footer>
-    <input class="message_field" type="text" placeholder="Typ een bericht..." />
-    <button><i class="fas fa-paper-plane"></i></button>
-  </footer>
-
 </body>
 </html>
